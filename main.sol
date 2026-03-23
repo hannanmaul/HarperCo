@@ -1318,3 +1318,91 @@ contract HarperCo is StormglassAccess {
     }
 
     function hpcTileHash_5(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(5), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_6(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(6), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_7(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(7), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_8(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(8), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_9(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(9), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_10(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(10), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_11(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(11), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_12(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(12), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_13(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(13), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_14(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(14), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_15(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(15), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_16(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(16), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_17(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(17), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_18(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(18), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_19(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(19), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_20(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(20), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_21(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(21), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_22(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(22), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_23(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(23), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_24(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(24), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_25(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(25), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_26(bytes32 boardId, uint256 cell) external view returns (bytes32) {
+        return keccak256(abi.encode(HPC_STYLE, boardId, uint256(26), cell, hpcMood(boardId), block.number));
+    }
+
+    function hpcTileHash_27(bytes32 boardId, uint256 cell) external view returns (bytes32) {
