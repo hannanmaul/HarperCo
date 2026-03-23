@@ -526,3 +526,91 @@ contract HarperCo is StormglassAccess {
         uint256 y = (m + nonce + uint256(76)) * uint256(118);
         y ^= (y >> 7);
         y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_64(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(77)) * uint256(119);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_65(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(78)) * uint256(120);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_66(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(79)) * uint256(121);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_67(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(80)) * uint256(122);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_68(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(81)) * uint256(123);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_69(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(59)) * uint256(124);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_70(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(60)) * uint256(125);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_71(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(61)) * uint256(126);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_72(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(62)) * uint256(127);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_73(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(63)) * uint256(128);
+        y ^= (y >> 7);
+        y ^= (y << 9);
+        return y % 9_000_011;
+    }
+
+    function hpcRenderCell_74(bytes32 boardId, uint256 nonce) external view returns (uint256) {
+        uint256 m = hpcMood(boardId);
+        uint256 y = (m + nonce + uint256(64)) * uint256(129);
+        y ^= (y >> 7);
+        y ^= (y << 9);
